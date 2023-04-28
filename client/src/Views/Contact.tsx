@@ -25,11 +25,7 @@ function Contact() {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    /* backgroundColor: 'primary.light', */
     mr: 1,
-    '&:hover': {
-      bgcolor: 'primary.light',
-    },
   };
 
   return (
@@ -46,19 +42,19 @@ function Contact() {
             }}
           >
             <Box component="form" onSubmit={handleSubmit} sx={{ maxWidth: 400 }}>
-              <Typography variant="h2" component="h2" gutterBottom>
+              <Typography variant="h2" component="h2" gutterBottom color={'#ffffff'}>
                 Contact
               </Typography>
               <br></br>
-              <Typography variant="h5">
+              <Typography variant="h5" color={'#ffffff'}>
                 ✉️ stephaniecinelli@gmail.com
               </Typography>
               <br></br>
-              <Typography variant="h5">
+              <Typography variant="h5" color={'#ffffff'}>
                 📱 +46 738934084
               </Typography>
               <br></br>
-              <Typography variant="h5">
+              <Typography variant="h5" color={'#ffffff'}>
                 📌 Stockholm, Sweden
               </Typography>
               <br></br>
@@ -82,8 +78,8 @@ function Contact() {
                     <img
                       src={linkedinLogo}
                       alt="Linkedin"
-                      width="85%"
-                      height="85%"
+                      width="95%"
+                      height="95%"
                     />
                   </Box>
                 </Grid>

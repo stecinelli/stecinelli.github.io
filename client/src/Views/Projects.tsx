@@ -133,6 +133,7 @@ export default function Projects() {
             style={{
               width: image.width,
             }}
+            onClick={() => window.open(image.href, "_blank")}
           >
             <Box
               sx={{
