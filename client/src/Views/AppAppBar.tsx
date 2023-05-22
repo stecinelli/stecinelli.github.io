@@ -30,7 +30,7 @@ function AppAppBar() {
               color="inherit"
               variant="h6"
               underline="none"
-              href="/resume"
+              href="#/resume"
               sx={{ ...rightLink, color: 'secondary.main' }}
             >
               {'Resume'}

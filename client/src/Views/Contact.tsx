@@ -66,7 +66,7 @@ function Contact() {
                 sx={{ height: 120 }}
               >
                 <Grid item sx={{ display: 'flex' }}>
-                  <Box component="a" href="https://github.com/stecinelli" sx={iconStyle}>
+                  <Box component="a" href="https://github.com/stecinelli" target='_blank' sx={iconStyle}>
                     <img
                       src={githubLogo}
                       alt="Github"
@@ -74,7 +74,7 @@ function Contact() {
                       height="85%"
                     />
                   </Box>
-                  <Box component="a" href="https://www.linkedin.com/in/stephanie-cinelli-ruzzi/" sx={iconStyle}>
+                  <Box component="a" href="https://www.linkedin.com/in/stephanie-cinelli-ruzzi/" target='_blank' sx={iconStyle}>
                     <img
                       src={linkedinLogo}
                       alt="Linkedin"

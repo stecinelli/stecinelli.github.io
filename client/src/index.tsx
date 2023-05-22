@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
 import Resume from './Views/Resume';
 import './index.css';
 import Rooter from './Pages/Rooter';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Rooter />,
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: '/resume',
+        path: '/resume', 
         element: <Resume />,
       },
     ]

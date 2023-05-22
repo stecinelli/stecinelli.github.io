@@ -30,10 +30,10 @@ function Intro() {
               </Typography>
               <Typography variant="h5">
                 {
-                  'Software Developer passionate for learning and solving complex problems.'
+                  'I am a Software Developer who is passionate about learning and solving complex problems.'
                 }<br></br><br></br>
                 {
-                  'I have worked for 7 years in software development projects focused on Customer Experience, and was awarded for 4 consecutive years for being a collaborative, innovative and reliable professional.'
+                  'I have worked for 7 years in software development projects focused on Customer Experience, and have been awarded for 4 consecutive years for being a collaborative, innovative and reliable professional.'
                 }<br></br><br></br>
                 {
                   'Demonstrated skills in React.js, Node.js and TypeScript and certificated on Agile, CX, UX and DevOps.'

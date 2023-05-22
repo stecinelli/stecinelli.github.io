@@ -90,7 +90,7 @@ const images = [
   },
   {
     url: SoundGame,
-    title: 'Game',
+    title: 'Node.js',
     width: '38%',
     href: 'https://github.com/stecinelli/song-game'
   },
